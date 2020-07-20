@@ -76,3 +76,23 @@ h1{
     cursor: pointer;
 }
 
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    margin-top: 50px;
+    width: 50%;
+    background-color: rgb(114, 114, 114);
+}
+
+.temperature{
+    font-size: 1.6rem;
+    color: white;
+}
+
+.place{
+    color: white;
+    font-size: 1.9rem;
+}
