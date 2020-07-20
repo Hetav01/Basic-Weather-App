@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Weather App</title>
-    <link rel="stylesheet" href="style,css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="heading">
-        <h1>Weather App</h1>
-        <img src="./Weather Minimal2.png" alt="" class="image">
+    <div class="container">
+        <div class="heading">
+            <h1>Weather App</h1>
+            <img src="./Weather Minimal2.png" alt="" class="image">
+        </div>
+        <div class="search">
+            <input type="text" class="text">
+            <input type="submit" class="submit" value="Submit">
+        </div>
+        <div class="display">
+            <h1 class="place"></h1>
+            <div class="temperature"></div>
+        </div>
+
     </div>
-    <div class="search">
-        <input type="text" class="text">
-        <input type="submit" class="submit">
-    </div>
-
-
-
     <script src="app.js"></script>
 </body>
 </html>

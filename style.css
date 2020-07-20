@@ -4,6 +4,73 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 body{
     background-color: rgb(44, 44, 44);
+    font-family: 'Lato', sans-serif;
 }
+
+.image{
+    height: 75px;
+    width: 95px;
+}
+
+h1{
+    color: white;
+    display: block;
+    margin-right: 5%;
+    font-size: 3.3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.text{
+    margin-right: 5%;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.submit{
+    border: none;
+    outline: none;
+    width: 80px;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
